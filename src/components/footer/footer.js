@@ -16,9 +16,9 @@ function Footer() {
         <p>Enabling everyday people to invest
 in startups they believe in</p>
          <div className='icons'>
-         <div className='icon'><AiOutlineInstagram /></div>
-         <div className='icon'><AiFillFacebook /></div>
-         <div className='icon'><AiFillLinkedin/></div> 
+         <AiOutlineInstagram className='icon'/>
+         <AiFillFacebook className='icon'  />
+         <AiFillLinkedin className='icon' />
          
          
          </div>

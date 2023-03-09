@@ -27,7 +27,10 @@
     flex-wrap:wrap;
     flex-direction: row;
 }
-
+.icon{
+    transform: scale(1.7);
+    margin: 20px;
+}
 .about p{
     color:rgb(178, 221, 239);
 }
