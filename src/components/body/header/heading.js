@@ -46,7 +46,7 @@ function Heading() {
            </div>
            <div className='vid-stat'>
              <div>
-             <div className='stat-content'><h2>0</h2><h5>0 % of minimum goal raised</h5></div><hr/>
+             <div className='stat-content'><h2>₹ 0</h2><h5>0 % of minimum goal raised</h5></div><hr/>
              <div className='stat-content'><h2>0</h2><h5>Total investors</h5></div><hr/>
              <div className='stat-content'><h2>21 Days</h2><h5>Left to invest</h5></div><hr/>
               </div>

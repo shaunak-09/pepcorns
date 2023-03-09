@@ -95,7 +95,7 @@ function Content() {
             </div>
             <div className='body-card'>
                <div className='card'>
-                <h1>1000</h1> <hr/>
+                <h1> ₹ 1000</h1> <hr/>
                 <h3>Rewards</h3>
                  <li>Be a part of our journey.</li>
                  <h3>Terms and Conditions</h3>
