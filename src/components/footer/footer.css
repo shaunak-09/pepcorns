@@ -1,0 +1,70 @@
+.footer{
+    padding:  3rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(6, 6, 95);
+    color: white;
+}
+.footer-content{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+.about,.startups,.company,.investors{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1rem;
+    margin: 10px;
+}
+.about{
+    width:20rem;
+}
+.icons{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+
+.about p{
+    color:rgb(178, 221, 239);
+}
+.footer h2{
+    padding: 10px 0;
+    color: rgb(204, 240, 240);
+}
+.footer a{
+    padding: 2px 0;
+    text-decoration: none;
+    color: rgb(178, 221, 239);
+    cursor: pointer;
+}
+.name img{
+    width:8rem;
+    margin-bottom: 5px;
+
+}
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+    
+    text-align: left;
+}
+.footer-links a{
+    font-size: large;
+    margin:10px;
+    text-align: left;
+}
+.footer a:hover{
+   color:white
+}
+@media screen and (max-width:750px){
+   .footer-content{
+    flex-direction: column;
+   }
+}

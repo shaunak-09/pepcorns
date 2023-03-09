@@ -1,0 +1,90 @@
+.body{
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.body-btn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.body-btn button{
+    background-color: transparent;
+    border: 2px groove rgb(126, 122, 122);
+    padding: 10px 15px;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+
+}
+.body-btn  button:active{
+    background-color: black;
+    color: white;
+}
+
+.body-content{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    
+}
+.body-txt{
+    width:70%;
+    text-align: left;
+    padding: 2rem;
+    outline: 1px solid rgb(167, 165, 165);
+   
+
+}
+.body-card{
+    width:35%;
+    padding: 5px 2rem;
+    text-align: left;
+    margin: 0 30px;
+    border: 1px solid rgb(216, 214, 214);
+    box-shadow: 1px 1px 2px rgb(212, 211, 211);
+
+}
+.card{
+    padding: 1rem;
+}
+.card h1{
+    padding: 10px 0;
+    color:rgb(10, 2, 244);
+}
+.card h3{
+    padding: 10px 0 0 0;
+    color: rgb(72, 71, 71);
+}
+.card button{
+    margin: 30px auto 10px auto;
+    background-color: rgb(20, 97, 240);
+    border:none;
+    width: 100%;
+    padding: 10px 3rem;
+    font-size: 1.1rem;
+    border-radius: 2px;
+    color: white;
+    box-shadow: 1px 2px 2px rgb(81, 179, 240);
+    
+}
+.card button:active{
+    box-shadow: none;
+}
+.card h3 span{
+    font-weight: 500;
+}
+@media screen and (max-width:900px){
+  .body-content{
+    flex-direction: column;
+  }
+  .body-txt{
+    width: 80%;
+  }
+  .body-card{
+    width: 80%;
+    margin: 50px 0;
+  }
+}
