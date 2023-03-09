@@ -8,6 +8,10 @@ function Content() {
     
     useEffect(() => {
         // console.log(btnName);
+        if(localStorage.getItem("btn")==null || localStorage.getItem("btn")==undefined)
+        {
+          localStorage.setItem("btn",btnName);
+        }
         setBtnName(localStorage.getItem("btn"));
         console.log(btnName);
     }, []);
